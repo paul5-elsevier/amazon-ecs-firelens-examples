@@ -1,0 +1,238 @@
+Connected to the target VM, address: '127.0.0.1:58642', transport: 'socket'
+
+    ___                                             __     __  ___
+   /   | ____  ________  ___  ____ ___  ___  ____  / /_   /  |/  /___  ____  ____  ____  ___  _____
+  / /| |/ __ `/ ___/ _ \/ _ \/ __ `__ \/ _ \/ __ \/ __/  / /|_/ / __ `/ __ \/ __ `/ __ `/ _ \/ ___/
+ / ___ / /_/ / /  /  __/  __/ / / / / /  __/ / / / /_   / /  / / /_/ / / / / /_/ / /_/ /  __/ /
+/_/  |_\__, /_/   \___/\___/_/ /_/ /_/\___/_/ /_/\__/  /_/  /_/\__,_/_/ /_/\__,_/\__, /\___/_/
+      /____/                                                                    /____/
+
+2021-08-17 10:30:14.553   INFO 7604 --- [           main] com.elsevier.oamm.OammApplication        : Starting OammApplication on ELSOXFM-214282 with PID 7604 (/Users/paul5/elsevier/github/eoas-agreement-manager/oammapp/target/classes started by paul5 in /Users/paul5/elsevier/github/eoas-agreement-manager)
+2021-08-17 10:30:14.556   INFO 7604 --- [           main] com.elsevier.oamm.OammApplication        : The following profiles are active: local,embedded-ldap
+2021-08-17 10:30:20.738   INFO 7604 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-17 10:30:20.738   INFO 7604 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-17 10:30:20.974   INFO 7604 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 230ms. Found 28 repository interfaces.
+2021-08-17 10:30:20.979   INFO 7604 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-17 10:30:20.979   INFO 7604 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-17 10:30:21.034   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.AgreementFlexibilityConfigurationRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.035   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.AgreementInstitutionRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.036   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.AgreementKeyRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.036   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.AgreementRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.037   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.ArticleTypeRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.037   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.AvailableAgreementArticleTypeRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.038   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.AvailablePaymentRequiredArticleTypeRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.038   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.BaseDataTextRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.038   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.CalculationRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.039   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.CountryCodeLookupRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.039   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.JournalBaseDataRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.039   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.JournalBatchImportJobRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.040   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.JournalEmbargoTypeRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.040   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.JournalGroupRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.040   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.JournalKeyRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.041   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.JournalMirrorRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.041   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.JournalRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.041   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.JournalSocietyAffiliationRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.041   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.LicenseRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.042   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.LicenseVersionRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.042   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.OrganizationAgreementRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.042   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.PolicyAgreementRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.043   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.ResearchForLifeGroupRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.043   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.ResearchForLifeJournalRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.043   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.SpecialIssueAgreementRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.043   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.SubmissionCalculationRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.044   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.UserRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.044   INFO 7604 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.elsevier.oamm.dao.api.VtwEgiVersionDataRepository. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2021-08-17 10:30:21.044   INFO 7604 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 0 repository interfaces.
+2021-08-17 10:30:21.573   INFO 7604 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$71e85b7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-17 10:30:21.682   INFO 7604 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c24c357] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-17 10:30:21.702   INFO 7604 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'FF4JAuthorizationsManager' of type [com.elsevier.oamm.configuration.FF4JAuthorizationsManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-17 10:30:21.707   INFO 7604 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'ff4JConfiguration' of type [com.elsevier.oamm.configuration.Ff4JConfiguration$$EnhancerBySpringCGLIB$$decd1c30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-17 10:30:21.735   INFO 7604 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'getFF4j' of type [org.ff4j.FF4j] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-17 10:30:21.750   INFO 7604 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$fba51089] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-17 10:30:22.160   INFO 7604 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-08-17 10:30:22.186   INFO 7604 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-17 10:30:22.186   INFO 7604 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-08-17 10:30:22.315   INFO 7604 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-17 10:30:22.315   INFO 7604 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7656 ms
+2021-08-17 10:30:22.620   INFO 7604 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-17 10:30:23.772   INFO 7604 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-17 10:30:23.983   INFO 7604 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-17 10:30:24.033   INFO 7604 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.18.Final}
+2021-08-17 10:30:24.035   INFO 7604 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-08-17 10:30:24.155   INFO 7604 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-08-17 10:30:24.537   INFO 7604 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-08-17 10:30:25.228   INFO 7604 --- [           main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2021-08-17 10:30:25.233   INFO 7604 --- [           main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@348c00d9
+2021-08-17 10:30:27.850   INFO 7604 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-17 10:30:30.268   INFO 7604 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-08-17 10:30:32.908   WARN 7604 --- [           main] o.s.b.a.batch.JpaBatchConfigurer         : JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2021-08-17 10:30:32.983   INFO 7604 --- [           main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: POSTGRES
+2021-08-17 10:30:32.998   INFO 7604 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2021-08-17 10:30:34.940   INFO 7604 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-17 10:30:35.268   INFO 7604 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2021-08-17 10:30:35.312   INFO 7604 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-08-17 10:30:35.712   INFO 7604 --- [           main] o.s.l.c.support.AbstractContextSource    : Property 'userDn' not set - anonymous context will be used for read-write operations
+2021-08-17 10:30:35.726   INFO 7604 --- [           main] s.s.l.DefaultSpringSecurityContextSource :  URL 'ldap://localhost:58708/dc=springframework,dc=org', root DN is 'dc=springframework,dc=org'
+2021-08-17 10:30:35.727   INFO 7604 --- [           main] o.s.l.c.support.AbstractContextSource    : Property 'userDn' not set - anonymous context will be used for read-write operations
+2021-08-17 10:30:35.752   INFO 7604 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/actuator/health'], []
+2021-08-17 10:30:35.854   INFO 7604 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/api/calculation/**'], Ant [pattern='/api/best-price-agreement/**'], Ant [pattern='/api/submissioncalculation'], Ant [pattern='/api/agreement-data/**'], Ant [pattern='/api/journaldata/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@662c71e5, org.springframework.security.web.context.SecurityContextPersistenceFilter@14e2fa0b, org.springframework.security.web.header.HeaderWriterFilter@60754a42, org.springframework.security.web.authentication.logout.LogoutFilter@1f7c76a7, com.elsevier.oamm.configuration.api.jwt.JwtTokenVerifierFilter@4f45e1a4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2a71f2c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ee59636, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@594b41df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@354d078f, org.springframework.security.web.session.SessionManagementFilter@47d41097, org.springframework.security.web.access.ExceptionTranslationFilter@523942d6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f808de8]
+2021-08-17 10:30:35.892   INFO 7604 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fc3b870, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ef8f1ca, org.springframework.security.web.header.HeaderWriterFilter@4b0d7cb5, org.springframework.security.web.csrf.CsrfFilter@6203f71, org.springframework.security.web.authentication.logout.LogoutFilter@4473d830, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9fd26ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2066f0d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@aed8be, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@513b730, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@157b59fe, org.springframework.security.web.session.SessionManagementFilter@4c511912, org.springframework.security.web.access.ExceptionTranslationFilter@63702e4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@89d4a1a]
+2021-08-17 10:30:37.042   INFO 7604 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-08-17 10:30:37.334   INFO 7604 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-08-17 10:30:37.418   INFO 7604 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-17 10:30:37.431   INFO 7604 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 4 custom documentation plugin(s)
+2021-08-17 10:30:37.475   INFO 7604 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-17 10:30:37.597   INFO 7604 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-17 10:30:37.703   INFO 7604 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-17 10:30:37.720   INFO 7604 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-17 10:30:37.792   INFO 7604 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-17 10:30:37.796   INFO 7604 --- [           main] com.elsevier.oamm.OammApplication        : Started OammApplication in 24.211 seconds (JVM running for 27.102)
+2021-08-17 10:30:38.027   INFO 7604 --- [)-192.168.1.241] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-17 10:30:38.028   INFO 7604 --- [)-192.168.1.241] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-17 10:30:38.052   INFO 7604 --- [)-192.168.1.241] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2021-08-17 10:31:34.086   INFO 7604 --- [nio-8081-exec-1] c.e.o.c.api.jwt.JwtTokenVerifierFilter   : JWT authentication skipped due to: Expected pre-authenticated X-JWT-Assertion header not found
+2021-08-17 10:31:34.294   INFO 7604 --- [nio-8081-exec-1] com.elsevier.oamm.accessLogger           : OAMM Access: user [oacs]; action [logged in].
+2021-08-17 10:31:34.897 [BEST-PRICED-AGREEMENT-CALCULATION-721690]  INFO 7604 --- [nio-8081-exec-1] estPricedAgreementCalculationRulesEngine : Starting Best Priced Agreement calculation for article PPP19055
+2021-08-17 10:31:34.910 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : HTTP POST https://enterprise-sit.api.elsevier.com/token
+2021-08-17 10:31:34.917 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : Accept=[application/json, application/cbor, application/*+json]
+2021-08-17 10:31:34.918 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : Writing [{grant_type=[client_credentials]}] as "application/x-www-form-urlencoded"
+2021-08-17 10:31:35.373 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : Response 200 OK
+2021-08-17 10:31:35.374 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : Reading to [com.elsevier.oamm.service.eip.AccessTokenResponse]
+2021-08-17 10:31:35.378 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : HTTP GET https://enterprise-sit.api.elsevier.com/v4/customers/organizationhierarchies/ECR-373531/path
+2021-08-17 10:31:35.392 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : Accept=[application/json, application/cbor, application/*+json]
+2021-08-17 10:31:35.392 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : Writing [parameters] with com.elsevier.oamm.service.dkp.CustomDkpMessageConverter
+2021-08-17 10:31:36.031 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : Response 404 NOT_FOUND
+2021-08-17 10:31:36.036 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : HTTP GET https://enterprise-sit.api.elsevier.com/v4/customers/organizationhierarchies/ECR-373531/path
+2021-08-17 10:31:36.037 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : Accept=[application/json, application/cbor, application/*+json]
+2021-08-17 10:31:36.037 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : Writing [parameters] with com.elsevier.oamm.service.dkp.CustomDkpMessageConverter
+2021-08-17 10:31:36.374 [BEST-PRICED-AGREEMENT-CALCULATION-721690] DEBUG 7604 --- [nio-8081-exec-1] o.s.web.client.RestTemplate              : Response 404 NOT_FOUND
+2021-08-17 10:31:36.554 [BEST-PRICED-AGREEMENT-CALCULATION-721690] ERROR 7604 --- [nio-8081-exec-1] estPricedAgreementCalculationRulesEngine : Error Journal not found for ptsAcronym: PPP occurred when processing best price agreement calculation for article PPP19055 and journal PPP
+2021-08-17 10:31:36.919 [BEST-PRICED-AGREEMENT-CALCULATION-721690]  INFO 7604 --- [nio-8081-exec-1] estPricedAgreementCalculationRulesEngine : Completed Best Priced Agreement calculation for article PPP19055
+2021-08-17 10:34:26.470   WARN 7604 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m27s229ms).
+2021-08-17 10:40:49.446   WARN 7604 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m45s643ms).
+2021-08-17 10:35:03.825  ERROR 7604 --- [nio-8081-exec-1] c.e.o.w.e.h.ControllerErrorHandler       : Global handler caught:
+
+java.lang.IllegalArgumentException: Journal not found for ptsAcronym: PPP
+	at com.elsevier.oamm.service.journal.JournalService.getJournalByPtsAcronym(JournalService.java:162)
+	at com.elsevier.oamm.service.journal.JournalService.getJournalForCalculation(JournalService.java:124)
+	at com.elsevier.oamm.service.journal.JournalService$$FastClassBySpringCGLIB$$5e1f4442.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685)
+	at com.elsevier.oamm.service.journal.JournalService$$EnhancerBySpringCGLIB$$b9db55ea.getJournalForCalculation(<generated>)
+	at com.elsevier.oamm.service.calculation_service_publication.PublicationOptionCalculationRuleContextFactory.createContext(PublicationOptionCalculationRuleContextFactory.java:82)
+	at com.elsevier.oamm.service.calculation_service_publication.BestPricedAgreementCalculationRulesEngine.calculate(BestPricedAgreementCalculationRulesEngine.java:197)
+	at com.elsevier.oamm.service.bestprice.BestPricedAgreementService.calculate(BestPricedAgreementService.java:26)
+	at com.elsevier.oamm.web.calculation.BestPricedAgreementController.getCalculationOutput(BestPricedAgreementController.java:32)
+	at com.elsevier.oamm.web.calculation.BestPricedAgreementController$$FastClassBySpringCGLIB$$1b739cb4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.elsevier.oamm.web.calculation.BestPricedAgreementController$$EnhancerBySpringCGLIB$$78dbca08.getCalculationOutput(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.oauth2.client.filter.OAuth2ClientContextFilter.doFilter(OAuth2ClientContextFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.elsevier.oamm.configuration.api.jwt.JwtTokenVerifierFilter.doFilterInternal(JwtTokenVerifierFilter.java:67)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:747)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
